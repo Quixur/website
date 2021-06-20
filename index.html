@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Quixur - The Open Social Network</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quixur</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="animatedButton.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We are Quixur the free and open social networking platform. Our goal is simple, connect people without spying on or censoring them.">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico" type="image/x-icon">  
+    <!-- Favicon Stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <!-- Open Graph Stuff -->
+    <meta property="og:site_name" content="Quixur">
+    <meta property="og:title" content="Quixur - The Open Social Network">
+    <meta property="og:description" content="We are Quixur the free and open social networking platform. Our goal is simple, connect people without spying on or censoring them.">
+    <meta property="og:url" content="https://quixur.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://quixur.com/assets/images/logo_with_background.PNG">
+    <meta property="og:image:url" content="https://quixur.com/assets/images/logo_with_background.PNG">
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/animatedButton.css">
 </head>
 <body>
-    <div class="grid fullscreen">
-        <div>
-            <h4>IF ONLINE,</h4>
+    <div class="fullscreen">
+        <div class="centered">
+            <h4>IF(ONLINE):</h4>
             <button class="animatedButton" onclick="window.location.assign('https://app.quixur.com')">
                 <div class="insideDiv"></div>
                 <span>GET STARTED</span>
             </button>
         </div>
+        <p style="position: absolute; top:calc(50% + 60px); left: 50%; transform: translate(-50%, -50%); font-style: italic; color: #828282;">else: <a style="color: inherit !important;" href="mailto:remingtonholder@protonmail.com">contact me</a></p>
     </div>
 </body>
 </html>
