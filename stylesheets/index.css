@@ -4,13 +4,17 @@
 }
 html, body{
     margin: 0;
-    background-color: #101010;
+    /* background-color: #101010; */
+    background-image: url("/assets/images/mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: DIN-Bold !important;
     text-align: center;
 }
 .fullscreen{
-    width: 100%;
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 100vh;
 }
 .centered{
     color: white;
